@@ -11,32 +11,7 @@ body {
   font-size: 22px;
   text-align: center;
 }
-.main {
-  padding-top: 69px;
-  opacity: 0.9;
-  width: 1200px;
-  margin: auto;
-}
 
-
-#mission {
-  height: 700px;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  padding-top: 70px;
-}
-
-#mission .content {
-  margin: auto;
-  background-color: black;
-  width: 100%;
-}
-
-#store {
-  height: 700px;
-  width: 1000px;
-  margin: auto;
-  padding-top: 70px;
-}
 
 .flex-container {
   display: flex;
@@ -53,6 +28,7 @@ header {
   border-bottom: 1px solid seashell;
   align-items: center;
 }
+
 header img {
   height: 50px;
   padding-left: 10px;
@@ -72,9 +48,40 @@ a {
   color: seashell;
 }
 
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+
+}
+
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+
+}
+
+
 h2, h3, h4 {
   margin: 0;
-  padding: 10px;
+  padding: 20px;
 }
 
 .item {
@@ -85,6 +92,7 @@ h2, h3, h4 {
   height: 200px;
   margin: 10px;
   display: block;
+
 }
 
 .item span {
